@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1666285266 source:/home/nick/projects/DuplicateFinder/main.cpp
+	<iostream>
+	<fstream>
+	<FilesFinder.h>
+	<ContentReader.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1666285397 /home/nick/projects/DuplicateFinder/include/FilesFinder.h
+	<iostream>
+	<experimental/filesystem>
+
+1666285397 source:/home/nick/projects/DuplicateFinder/src/FilesFinder.cpp
+	"FilesFinder.h"
+
+1666285397 /home/nick/projects/DuplicateFinder/include/ContentReader.h
+	<iostream>
+	<fstream>
+	<experimental/filesystem>
+
+1666284547 source:/home/nick/projects/DuplicateFinder/src/ContentReader.cpp
+	"ContentReader.h"
+
